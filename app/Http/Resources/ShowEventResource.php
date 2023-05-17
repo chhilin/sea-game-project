@@ -22,7 +22,6 @@ class ShowEventResource extends JsonResource
             'description' => $this->description,
             'created_by' => $this->user,
             'teams' => TeamResource::collection($this->teams)
-
         ];
     }
 }

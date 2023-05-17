@@ -20,8 +20,6 @@ class EventResource extends JsonResource
             'sport' => $this->sportName,
             'description' => $this->description,
             'created_by' => $this->user,
-            
-            
         ];
     }
 }
